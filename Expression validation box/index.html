@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Expression Validator</title>
+    <link rel="shortcut icon"
+		href="https://www.freepngimg.com/download/gmail/58605-google-angle-symbol-apps-drive-forms-green.png"
+		type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container contact-form">
+        <h1 style="color: yellow;">User Information</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h4 style="color: white;">Instraction of valid input</h4><br>
+                <button type="button" id="fullname" class="btn btn-primary">Verify Your Name</button>
+                <p style="color: crimson;">Example: APURBU SARDER(At least two upper case words separated by at least one empty space)</p>
+
+
+                <button type="button" id="dob" class="btn btn-primary">Verify Your Birthday Date</button>
+                <p style="color: crimson;">Example: 05/10/2000(date of birth must be a number as dd/mm/yyyy)</p>
+
+
+
+                <button type="button" id="phone" class="btn btn-primary">Verify Your Phone Number</button>
+                <p style="color: crimson;">Example: Must be a bangladeshi number</p>
+
+
+                <button type="button" id="email" class="btn btn-primary">Verify Your Email Address</button>
+                <p style="color: crimson;">Example: example@gmail.com</p>
+
+
+                <button type="button" id="postal" class="btn btn-primary">Verify Your Post-code</button>
+                <p style="color: crimson;">Example: 1287 (Must be 4 digit)</p>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="" style="color: yellow;">Full Name</label>
+                    <input type="text" name="fullname" class="form-control">
+                    <p style="color: white;">Put your valid email address, for example: APURBO SARDER</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="" style="color: yellow;">Birthday Date</label>
+                    <input type="dob" name="dob" class="form-control">
+                    <p style="color: white;">Put your valid birthday, for example: 05/10/2000</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="" style="color: yellow;">Phone Number</label>
+                    <input type="number" name="telephone" class="form-control">
+                    <p style="color: white;">Put your valid email address, for example: example@gmail.com</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="" style="color: yellow;">Email</label>
+                    <input type="text" name="email" class="form-control">
+                    <p style="color: white;">Put your bangladeshi valid number</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="" style="color: yellow;">Post-code</label><br>
+                    <input type="number" name="postal" class="form-control">
+                    <p style="color: white;">Put your bangladeshi post code</p>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-outline-warning btn-block"><strong>SUBMIT</strong></button>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+    
+    <!-- bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<!-- customize -->
+<script src="/script.js"></script>
+</body>
+</html>
